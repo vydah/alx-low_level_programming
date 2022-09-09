@@ -1,5 +1,8 @@
 #include <stdio.h>
-/* Main prints out the string required */
+/**
+ * Description: main - Prints out  string to stdout.
+ * Return: 0 if success.
+ * /
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
