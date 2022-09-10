@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <unistd.h>
+
 /**
  * main: prints out a quote
  * Return: 1 if successfull
