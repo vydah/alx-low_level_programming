@@ -7,9 +7,8 @@
 
 
 /* betty style doc for function main goes there */
-/** main - checks if n is negativ,
- * positive
- * or a zero value
+/** main - checks if n is negativ, positive, or a zero value
+ * return 0: on success
  */
 
 int main(void)
@@ -17,6 +16,7 @@ int main(void)
 {
 
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
