@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-
 	int n;
 
 	srand(time(0));
@@ -25,6 +24,5 @@ int main(void)
 	{	
 		printf("%d\n", n, "is zero");
 	}
-	
 	return (0);
 }
