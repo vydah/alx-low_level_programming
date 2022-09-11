@@ -7,6 +7,10 @@
 
 
 /* betty style doc for function main goes there */
+/** main - checks if n is negativ,
+ * positive
+ * or a zero value
+ */
 
 int main(void)
 
