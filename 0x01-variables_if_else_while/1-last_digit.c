@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  *  main- prints the last digit of the number n
- *  Return 0- if success
+ *  Return: 0 if success
  */
 
 int main(void)
