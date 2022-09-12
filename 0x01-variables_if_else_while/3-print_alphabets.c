@@ -8,13 +8,13 @@ int main(void)
 	char c = 'a';
 	char C = 'A';
 
-	while(c <= 'z')
+	while (c <= 'z')
 	{
 		puchar(c);
 		c++;
 	}
 
-	while(C <= 'Z')
+	while (C <= 'Z')
 	{
 		puchar(C);
 		c++;
