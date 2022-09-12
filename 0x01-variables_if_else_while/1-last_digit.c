@@ -4,7 +4,8 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
-/** main- prints the last digit of the number n
+/**
+ *  main- prints the last digit of the number n
  * return 0- if success
  */
 
