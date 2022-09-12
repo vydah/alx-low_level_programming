@@ -6,12 +6,7 @@
  */
 int main(void)
 {
-	int n = 0;
+	putchar("0123456789\n");
 
-	for (n = 0; n < 10; n++)
-	{
-		putchar(n);
-	}
-	putchar('\n');
 	return (0);
 }
