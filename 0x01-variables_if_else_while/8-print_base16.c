@@ -7,10 +7,17 @@
 int main(void)
 {
 	int n = 0;
+	char c = 'a';
 
 	for (n = 0; n < 16; n++)
 	{
-		printf("%d", n);
+		if (n > 9)
+		{
+			printf("%c, c");
+			c++;
+		}
+		else
+			printf("%d, n")
 	}
 	printf("\n");
 	return (0);
