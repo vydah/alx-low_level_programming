@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main: prints out a quote
+ * main- prints out a quote
  * Return: 1 if successfull
  */
 int main(void)
