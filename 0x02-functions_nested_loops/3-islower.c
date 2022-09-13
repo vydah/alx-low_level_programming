@@ -5,21 +5,23 @@
  *  Return: 1 if c is lower case, 0 if c otherwise
  */
 
-int _islower(int)
+int _islower(int c)
 {
 	int n;
+	int r;
 
 	for (n = 'a'; n <= 'z'; n++)
 	{
 		if(n == c)
 			{
-				return (1);
+				r = 1;
 			}
 			else
 			{
-				return (0);
+				r = 0;
 			}
 	}
+	rturn (r);
 }
 
 
