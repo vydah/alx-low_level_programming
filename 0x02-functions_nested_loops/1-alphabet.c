@@ -1,17 +1,9 @@
 #include "main.h"
 
 /**
- *  main- prints the string _putchar
- *  Return: 0 if success
+ *  main- prints the alphabets
+ *  Return: nothing
  */
-
-void print_alphabet(void)
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 void print_alphabet(void)
 {
