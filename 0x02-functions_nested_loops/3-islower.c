@@ -21,7 +21,7 @@ int _islower(int c)
 				r = 0;
 			}
 	}
-	rturn (r);
+	return (r);
 }
 
 
