@@ -7,8 +7,8 @@
 
 int _islower(int c)
 {
-	int n;
 	int r;
+	
 	if (c >='a' && c <= 'z')
 		{
 			r = 1;
