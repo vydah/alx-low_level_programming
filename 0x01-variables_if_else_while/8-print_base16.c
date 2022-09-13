@@ -6,19 +6,22 @@
  */
 int main(void)
 {
-	int n = 0;
+	int n = '0';
+
 	char c = 'a';
 
-	for (n = 0; n < 16; n++)
+	for (n = '0'; n < '16'; n++)
 	{
-		if (n > 9)
+		if (n <= '9')
+		{
+			putchar(n);
+		}
+		else
 		{
 			putchar(c);
 			c++;
 		}
-		else
-			printf("%d, n");
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
