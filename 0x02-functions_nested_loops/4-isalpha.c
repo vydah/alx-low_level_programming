@@ -6,7 +6,7 @@
  *  Return: 1 if c is lower case, 0 if c otherwise
  */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	int r;
 
