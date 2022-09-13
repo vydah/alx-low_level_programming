@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (n > 9)
 		{
-			printf("%c, c");
+			putchar(c);
 			c++;
 		}
 		else
