@@ -1,6 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
-
 #include <stdio.h>
 
 /**
@@ -10,6 +7,12 @@
 
 int main(void)
 {
-	putchar('_putchar\n');
+	char c [] = "_putchar";
+	int i = 0;
+	(while i < 8)
+	{
+		_putchar('c[i]');
+	}
+	putchar('\n');
 	return (0);
 }
