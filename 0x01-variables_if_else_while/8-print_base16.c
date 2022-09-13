@@ -14,7 +14,7 @@ int main(void)
 	{
 		if (n <= 9)
 		{
-			printf("%d, n");
+			printf("%d", n);
 		}
 		else
 		{
