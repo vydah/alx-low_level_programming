@@ -5,7 +5,7 @@
  *  Return: 1 if c is lower case, 0 if c otherwise
  */
 
-int _islower(int c)
+int _islower(int)
 {
 	int n;
 
