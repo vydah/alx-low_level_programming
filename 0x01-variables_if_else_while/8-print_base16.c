@@ -17,7 +17,7 @@ int main(void)
 			c++;
 		}
 		else
-			printf("%d, n")
+			printf("%d, n");
 	}
 	printf("\n");
 	return (0);
