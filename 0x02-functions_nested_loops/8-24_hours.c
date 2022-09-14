@@ -16,7 +16,7 @@ void jack_bauer(void)
 				minute = minute + 1;
 				if(minute == 60)
 				{
-					hour == hour + 1;
+					hour = hour + 1;
 					i = 0;
 				}
 			}
