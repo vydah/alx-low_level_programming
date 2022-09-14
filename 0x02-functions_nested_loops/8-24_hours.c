@@ -20,6 +20,8 @@ void jack_bauer(void)
 					i = 0;
 				}
 			}
-			_putchar(hour':'minute);
+			_putchar(hour);
+			_putchar(':');
+			_putchar(minute);
 		}
 }
