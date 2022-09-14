@@ -13,7 +13,7 @@ int add(int i, int j)
 
 	if (add < 10)
 	{
-		_putchar(add);
+		_putchar((i + j) + '0');
 	}
 	else
 	{
