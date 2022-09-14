@@ -11,14 +11,14 @@ int add(int i, int j)
 
 	add = i + j;
 
-	if (add > 10)
+	if (add < 10)
 	{
-		_putchar((add / 10) + '0');
-		_putchar((add % 10) + '0');
+		_putchar(add + '0');
 	}
 	else
 	{
-		_putchar(add + '0');
+		_putchar((add / 10) + '0');
+		_putchar((add % 10) + '0');		
 	}
 	return (0);
 }
