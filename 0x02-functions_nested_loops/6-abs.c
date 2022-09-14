@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * int _abs(int) - Determines whether an integer is positive, negative or zero.
+ * _abs - Gives the absolute value of i.
  * @i: the number to be checked.
- * Return: 1 if positive, 0 if zero, -1 if negative, / if not a digit.
+ * Return: i
  */
 int _abs(int i)
 {
@@ -10,5 +10,5 @@ int _abs(int i)
 	{
 		i = i * -1;
 	}
-	return ('i');
+	return (i);
 }
