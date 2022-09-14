@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * jack_bauer - Prints the minute of the day for 24 hours.
- * 
  */
 void jack_bauer(void)
 {
