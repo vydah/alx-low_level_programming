@@ -10,6 +10,15 @@ int add(int i, int j)
 	int add;
 
 	add = i + j;
-	_putchar(add + '0');
+
+	if (add > 10)
+	{
+		_putchar((add / 10) + '0');
+		_putchar((add % 10) + '0');
+	}
+	else
+	{
+		_putchar(add + '0');
+	}
 	return (0);
 }
