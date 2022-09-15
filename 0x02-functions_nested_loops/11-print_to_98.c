@@ -1,21 +1,19 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
-
 /**
- *  print_to_98- prints the string _putchar
- * @n: input value
- *  Return: 0 if success
+ * print_to_98 - print all natural numbers from input to 98
+ * @n: starting point
+ *
+ * Return: void returns nothing.
  */
 
 void print_to_98(int n)
 {
-    int i;
-
     if (n <= 98)
-        for (i = n; i <= 97; i++)
-            printf("%d, ", i);
+        for (n = n; n <= 97; n++)
+            printf("%d, ", n);
     else
-        for (i = n; i > 98; i--)
-            printf("%d, ", i);
+        for (n = n; n > 98; n--)
+            printf("%d, ", n);
     printf("98\n");
 }
