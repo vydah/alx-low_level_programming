@@ -6,15 +6,7 @@
  */
 int _isupper(int c)
 {
-    int i;
-    int r;
-
-    for (i='65'; i <= '90', i++)
-    {
-        if (c == i)
-            r = 1;
-        else
-            r = 0;
-    }
-    return (r);
+    if (c >= 'A' && c <= 'Z')
+        return (1);
+    return (0);
 }
