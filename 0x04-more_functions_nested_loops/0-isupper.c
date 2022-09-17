@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code.
+ * _isupper - check the code.
  *@c: call variable.
  * Return: 1 if uppercase 0 if otherwise.
  */
