@@ -8,6 +8,9 @@
 
 int main(void)
 {
+	/**
+	 * @i: call value
+	 */
 	int i;
 
 	i = 0;
