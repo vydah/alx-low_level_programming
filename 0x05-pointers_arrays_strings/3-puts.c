@@ -6,6 +6,10 @@
 
 void _puts(char *str)
 {
-	printf("%d", *str);
-	printf("\n");
+	while (*str != '\0')
+	{
+		_putchar(*str);
+		str++;
+	}
+	_puchar ('\n');
 }
