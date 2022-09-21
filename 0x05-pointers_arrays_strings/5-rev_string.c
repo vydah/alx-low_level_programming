@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * rev_string - prints a string followed by a new line.
- * @str: call value
+ * @s: call value
  */
 
 void rev_string(char *s)
