@@ -1,4 +1,3 @@
-
 /**
  * leet - encodes a string into leetspeek.
  * @s: pointer to input string.
