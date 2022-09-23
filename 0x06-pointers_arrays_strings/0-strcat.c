@@ -1,4 +1,3 @@
-
 /**
  * *_strcat- prints the concatenation of two string
  * @dest: one of the string
