@@ -1,8 +1,8 @@
 /**
- * *_strcat- prints the concatenation of two string
- * @dest: one of the string
- * @another string
- * Return: a pointer to the concatenated string
+ * _strcat - concatenates two strings
+ * @dest: pointer to the destination string
+ * @src: pointer to the source string
+ * Return: pointer to the resulting string dest
  */
 
 char *_strcat(char *dest, char *src)
