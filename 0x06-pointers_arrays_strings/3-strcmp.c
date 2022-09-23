@@ -1,4 +1,3 @@
-
 /**
  * _strcmp - compares two strings, ending at the first byte that is different.
  * @s1: string to be compared
