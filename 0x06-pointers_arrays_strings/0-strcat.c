@@ -7,20 +7,15 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char concat;
-	int i = 0;
-	int j =0;
+	int i, j;
 
-	while (dest[i] != '\0')
+	i = 0;
+	for (j = 0; dest[j] != '\0'; j++)
+		;
+	while (src[i] != '\0')
 	{
-		concat[i] = dest[i];
+		dest[j + i] = src[i];
 		i++;
 	}
-	while (src[j] != '\0')
-	{
-		concat[i] = src[j];
-		j++;
-	}
-	dest = concat;
 	return (dest);
 }
