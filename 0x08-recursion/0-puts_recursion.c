@@ -4,7 +4,15 @@
  * Nothing
  */
 
-void _puts_recursion(char *s)
+void print(char s)
 {
-	_putchar(s);
+	int i = 0;
+
+	if(s[i] !='\0')
+		_putchar(s[i]);
+}
+
+void _puts_recursion(char s)
+{
+	print(*s);
 }
