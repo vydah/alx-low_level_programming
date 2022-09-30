@@ -1,0 +1,18 @@
+#include "main.h"
+/**
+ * is_prime_number - checks if n is a prime number
+ * @n: the number
+ * Return: 1 if prime , 0 if not
+ */
+
+int is_prime_number(int n)
+{
+	if (n % 2 == 0 || n % 3 ==  || n %  == 0)
+	{
+		return (0);
+	}
+	else if
+	{
+		return (1);
+	}
+}
