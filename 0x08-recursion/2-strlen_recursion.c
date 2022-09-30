@@ -20,7 +20,7 @@ int _strlen_recursion(char *s)
 	else
 	{
 		_strlen_recursion(s + 1);
-		count = count + 1
+		count = count + 1;
 	}
 	return (count);
 }
