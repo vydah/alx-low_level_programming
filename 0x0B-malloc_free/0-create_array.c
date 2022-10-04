@@ -8,13 +8,13 @@
  */
 char *create_array(unsigned int size, char c)
 {
-    char *c;
+    char *ch;
     unsigned int i = 0;
 
     if(size != 0)
     {
-        c = malloc(sizeof(char) * size);
-        if (c == NULL)
+        ch = malloc(sizeof(char) * size);
+        if (ch == NULL)
         {
             return (NULL);
         }
@@ -25,7 +25,7 @@ char *create_array(unsigned int size, char c)
     }
     while( i < size)
     {
-         c[i] = 'S';
+         ch[i] = c;
     }
-    return (c);
+    return (ch);
 }
