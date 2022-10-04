@@ -26,6 +26,7 @@ char *create_array(unsigned int size, char c)
     while( i < size)
     {
          ch[i] = c;
+         i--;
     }
     return (ch);
 }
