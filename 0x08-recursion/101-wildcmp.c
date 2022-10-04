@@ -8,9 +8,9 @@
  */
 int wildcmp(char *s1, char *s2)
 {
-    if ((s2[0] == * || s2[1] == 0) && s1[0] != s2[0])
+    if ((s2[0] == '*' || s2[1] == 0) && s1[0] != s2[0])
     {
-        int wildcmp(s1,s2++)
+        int wildcmp(s1,s2++);
     }
     else if (s1[0] == s2[0])
     {
