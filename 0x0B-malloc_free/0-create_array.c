@@ -2,8 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - introduction to malloc and free
- *
+ * create_array - introduction to malloc and free
+ * @size : int size
+ * @ c characters to copy
  * Return: 0.
  */
 char *create_array(unsigned int size, char c)
